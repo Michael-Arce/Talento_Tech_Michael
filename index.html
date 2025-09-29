@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sitio oficial de las Fiestas de San Pacho en Quibdó, Chocó. Conoce la programación, historia y eventos de esta celebración cultural." />
+    <title>Fiestas de San Pacho - Quibdó | Celebración Cultural del Chocó</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+    
+    <header role="banner">
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="https://via.placeholder.com/80" alt="Logo de las Fiestas de San Pacho - Quibdó" class="logo-img" width="80" height="80" />
+                <div class="logo-text">
+                    <h1>Fiestas de San Pacho</h1>
+                    <span class="subtitle">Quibdó, Chocó</span>
+                </div>
+            </div>
+
+            <!-- Mobile menu button -->
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <nav class="main-nav" role="navigation" aria-label="Navegación principal">
+                <ul>
+                    <li><a href="#inicio" class="nav-link active"><i class="fas fa-home" aria-hidden="true"></i> <span>Inicio</span></a></li>
+                    <li><a href="#historia" class="nav-link"><i class="fas fa-info-circle" aria-hidden="true"></i> <span>Historia</span></a></li>
+                    <li><a href="#programacion" class="nav-link"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <span>Programación</span></a></li>
+                    <li><a href="#galeria" class="nav-link"><i class="fas fa-images" aria-hidden="true"></i> <span>Galería</span></a></li>
+                    <li><a href="#blog" class="nav-link"><i class="fas fa-blog" aria-hidden="true"></i> <span>Blog</span></a></li>
+                    <li><a href="#contacto" class="nav-link"><i class="fas fa-envelope" aria-hidden="true"></i> <span>Contacto</span></a></li>
+                    <li><a href="#feria" class="nav-link"><i class="fas fa-store" aria-hidden="true"></i> <span>Feria</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <!-- Hero Section with Carousel -->
+        <section class="hero" id="inicio" aria-labelledby="hero-heading">
+            <h2 id="hero-heading" class="visually-hidden">Imágenes destacadas de las Fiestas de San Pacho</h2>
+            
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide active" aria-hidden="false">
+                        <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Desfile tradicional durante las Fiestas de San Pacho" loading="eager" />
+                        <div class="slide-caption">
+                            <h3>Desfiles Tradicionales</h3>
+                            <p>Vive la experiencia única de nuestros coloridos desfiles</p>
+                            <a href="https://es.wikipedia.org/wiki/Fiestas_de_San_Pacho" class="cta-button" target="_blank">Conoce más</a>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" aria-hidden="true">
+                        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Celebración religiosa en honor a San Francisco de Asís" loading="lazy" />
+                        <div class="slide-caption">
+                            <h3>Celebraciones Religiosas</h3>
+                            <p>Honrando a San Francisco de Asís, nuestro patrono</p>
+                            <a href="https://www.colombia.co/visita-colombia/eventos/fiestas-de-san-pacho-en-quibdo/" class="cta-button" target="_blank">Conoce más</a>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" aria-hidden="true">
+                        <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Música y danza en las Fiestas de San Pacho" loading="lazy" />
+                        <div class="slide-caption">
+                            <h3>Música y Danza</h3>
+                            <p>Expresiones culturales que llenan de alegría las calles de Quibdó</p>
+                            <a href="https://www.mincultura.gov.co/prensa/noticias/Paginas/Fiestas-de-San-Pacho,-Patrimonio-de-la-Humanidad.aspx" class="cta-button" target="_blank">Conoce más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Controls -->
+                <button class="carousel-control prev" aria-label="Imagen anterior">
+                    <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                </button>
+                <button class="carousel-control next" aria-label="Siguiente imagen">
+                    <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                </button>
+
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators" aria-label="Seleccionar imagen del carrusel">
+                    <button class="indicator active" aria-current="true" aria-label="Imagen 1"></button>
+                    <button class="indicator" aria-label="Imagen 2"></button>
+                    <button class="indicator" aria-label="Imagen 3"></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Introduction Section -->
+        <section class="introduction" aria-labelledby="intro-heading">
+            <div class="container">
+                <h2 id="intro-heading">Bienvenidos a las Fiestas de San Pacho</h2>
+                <p>Las Fiestas de San Pacho son la celebración más importante de Quibdó, Chocó, declaradas Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO. Durante todo el mes de septiembre, la ciudad se llena de color, música, danza y alegría en honor a San Francisco de Asís.</p>
+                <a href="#historia" class="cta-button">Conoce nuestra historia</a>
+            </div>
+        </section>
+
+        <!-- Quick Info Section -->
+        <section class="quick-info" aria-labelledby="info-heading">
+            <div class="container">
+                <h2 id="info-heading" class="visually-hidden">Información rápida</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <i class="fas fa-calendar-day" aria-hidden="true"></i>
+                        <h3>Fecha</h3>
+                        <p>20 de Septiembre - 5 de Octubre</p>
+                        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Fiestas+de+San+Pacho&dates=20230920/20231005&details=Las+Fiestas+de+San+Pacho+son+la+celebración+más+importante+de+Quibdó,+Chocó&location=Quibdó,+Chocó,+Colombia" class="info-button" target="_blank">Agregar al calendario</a>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                        <h3>Lugar</h3>
+                        <p>Quibdó, Chocó, Colombia</p>
+                        <a href="https://www.google.com/maps/place/Quibdó,+Chocó/@5.6910298,-76.6698244,13z/data=!3m1!4b1!4m6!3m5!1s0x8e4764bea6d2c96f:0x742b3e6a4944d803!8m2!3d5.695633!4d-76.649812!16zL20vMDFqMjN3?entry=ttu" class="info-button" target="_blank">Ver en mapa</a>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-users" aria-hidden="true"></i>
+                        <h3>Participantes</h3>
+                        <p>12 barrios tradicionales</p>
+                        <a href="https://www.eltiempo.com/colombia/otras-ciudades/fiestas-de-san-pacho-en-quibdo-que-son-y-cuando-se-celebran-789664" class="info-button" target="_blank">Ver barrios</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Historia Section -->
+        <section id="historia" class="content-section">
+            <div class="container">
+                <h2>Historia de las Fiestas de San Pacho</h2>
+                <div class="content-grid">
+                    <div class="content-text">
+                        <p>Las Fiestas de San Pacho son las celebraciones en honor a San Francisco de Asís, patrono de Quibdó, capital del departamento del Chocó. Estas festividades, que se realizan cada año del 20 de septiembre al 5 de octubre, fueron declaradas Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO en 2012.</p>
+                        <p>La tradición se remonta a la época colonial cuando los franciscanos llegaron a la región y establecieron la devoción a San Francisco de Asís. Con el tiempo, la comunidad afrochocoana adoptó y adaptó estas celebraciones, incorporando elementos de su propia cultura.</p>
+                        <a href="https://ich.unesco.org/es/RL/las-fiestas-de-san-francisco-de-asis-o-fiestas-de-san-pacho-00647" class="cta-button" target="_blank">Ver en UNESCO</a>
+                    </div>
+                    <div class="content-image">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Imagen histórica de las Fiestas de San Pacho">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programación Section -->
+        <section id="programacion" class="content-section alt-bg">
+            <div class="container">
+                <h2>Programación de Eventos</h2>
+                <div class="events-container">
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">20</span>
+                            <span class="month">SEP</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Inauguración Oficial</h3>
+                            <p>Desfile de apertura con la participación de los 12 barrios tradicionales</p>
+                            <a href="https://www.colombia.co/visita-colombia/eventos/fiestas-de-san-pacho-en-quibdo/" class="event-button" target="_blank">Más información</a>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">24</span>
+                            <span class="month">SEP</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Desfile de Comparsas</h3>
+                            <p>Colorido desfile con música, danza y disfraces tradicionales</p>
+                            <a href="https://www.colombia.co/visita-colombia/eventos/fiestas-de-san-pacho-en-quibdo/" class="event-button" target="_blank">Más información</a>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">04</span>
+                            <span class="month">OCT</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Gran Concierto de Cierre</h3>
+                            <p>Presentación de artistas locales y nacionales en el parque principal</p>
+                            <a href="https://www.colombia.co/visita-colombia/eventos/fiestas-de-san-pacho-en-quibdo/" class="event-button" target="_blank">Más información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="https://www.quibdo-choco.gov.co/" class="cta-button" target="_blank">Ver programación completa</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galería Section -->
+        <section id="galeria" class="content-section">
+            <div class="container">
+                <h2>Galería de Imágenes</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Celebración religiosa">
+                        <div class="gallery-overlay">
+                            <a href="https://www.flickr.com/photos/tags/sanpacho" class="gallery-button" target="_blank">Ver más</a>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Desfile tradicional">
+                        <div class="gallery-overlay">
+                            <a href="https://www.flickr.com/photos/tags/sanpacho" class="gallery-button" target="_blank">Ver más</a>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Música y danza">
+                        <div class="gallery-overlay">
+                            <a href="https://www.flickr.com/photos/tags/sanpacho" class="gallery-button" target="_blank">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="content-section alt-bg">
+            <div class="container">
+                <h2>Últimas Noticias</h2>
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Preparativos para las fiestas">
+                        <div class="blog-content">
+                            <h3>Preparativos para la edición 2023</h3>
+                            <p>Conoce todos los detalles de los preparativos para la próxima edición de las Fiestas de San Pacho.</p>
+                            <a href="https://www.eltiempo.com/colombia/otras-ciudades/fiestas-de-san-pacho-en-quibdo-que-son-y-cuando-se-celebran-789664" class="blog-button" target="_blank">Leer más</a>
+                        </div>
+                    </article>
+                    <article class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Patrimonio de la Humanidad">
+                        <div class="blog-content">
+                            <h3>10 años como Patrimonio de la Humanidad</h3>
+                            <p>Celebramos una década desde que la UNESCO declaró las Fiestas de San Pacho como Patrimonio Cultural Inmaterial.</p>
+                            <a href="https://www.mincultura.gov.co/prensa/noticias/Paginas/Fiestas-de-San-Pacho,-Patrimonio-de-la-Humanidad.aspx" class="blog-button" target="_blank">Leer más</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto Section -->
+        <section id="contacto" class="content-section">
+            <div class="container">
+                <h2>Contacto</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Información de Contacto</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Alcaldía de Quibdó, Chocó, Colombia</p>
+                        <p><i class="fas fa-phone"></i> +57 (604) 672 1400</p>
+                        <p><i class="fas fa-envelope"></i> contacto@quibdo-choco.gov.co</p>
+                        <div class="social-contact">
+                            <a href="https://www.facebook.com/AlcaldiaDeQuibdo/" class="social-icon" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/AlcaldiaQuibdo" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/alcaldiaquibdo/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Envíanos un mensaje</h3>
+                        <form id="contactForm">
+                            <input type="text" placeholder="Nombre" required>
+                            <input type="email" placeholder="Correo electrónico" required>
+                            <textarea placeholder="Mensaje" rows="5" required></textarea>
+                            <button type="submit" class="cta-button">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feria Section -->
+        <section id="feria" class="content-section alt-bg">
+            <div class="container">
+                <h2>Feria Comercial y Artesanal</h2>
+                <div class="content-grid">
+                    <div class="content-text">
+                        <p>La Feria Comercial y Artesanal de las Fiestas de San Pacho es un espacio donde emprendedores locales y regionales exponen y comercializan sus productos. Encuentra artesanías, gastronomía típica y mucho más.</p>
+                        <ul>
+                            <li>Artesanías en madera y tagua</li>
+                            <li>Gastronomía tradicional chocoana</li>
+                            <li>Productos agrícolas de la región</li>
+                            <li>Ropa y accesorios con diseños locales</li>
+                        </ul>
+                        <a href="https://www.quibdo-choco.gov.co/feria-comercial" class="cta-button" target="_blank">Más información</a>
+                    </div>
+                    <div class="content-image">
+                        <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Feria artesanal">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Fiestas de San Pacho</h3>
+                    <p>Celebrando la cultura chocoana desde 1648</p>
+                    <a href="https://www.quibdo-choco.gov.co/" class="footer-button" target="_blank">Sitio oficial de Quibdó</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="#programacion">Programación</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="https://www.colombia.co/visita-colombia/eventos/fiestas-de-san-pacho-en-quibdo/" target="_blank">Colombia Travel</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/AlcaldiaDeQuibdo/" aria-label="Facebook" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/alcaldiaquibdo/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/AlcaldiaQuibdo" aria-label="Twitter" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/user/alcaldiaquibdo" aria-label="YouTube" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Fiestas de San Pacho - Quibdó. Todos los derechos reservados. | <a href="https://www.quibdo-choco.gov.co/politica-privacidad" target="_blank">Política de privacidad</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -231,6 +231,9 @@ header {
   margin: 0 auto 30px;
 }
 
+
+
+
 .cta-button {
   display: inline-block;
   background-color: #ac664d;
@@ -482,6 +485,7 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
 }
+
 /* Imagen miniatura */
 .imagen {
   width: 200px;
@@ -534,6 +538,7 @@ header {
 .close:hover {
   color: #ff4444;
 }
+
 .blog-card {
   background: white;
   border-radius: 10px;
@@ -1004,7 +1009,7 @@ header {
 }
 /* Pie de página */
 footer {
-  background-color: #1a5276;
+  background-color: #541c0a;
   color: white;
   padding: 40px 0 20px;
 }

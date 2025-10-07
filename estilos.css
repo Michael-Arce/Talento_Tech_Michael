@@ -895,10 +895,10 @@ footer {
   .event-image {
     display: none;
     position: absolute;
-    top: 10%;
+    top: -80%;
     left: 50%;
     transform: translateX(-50%);
-    width: 240px;
+    width: 170px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
